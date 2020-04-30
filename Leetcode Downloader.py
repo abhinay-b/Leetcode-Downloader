@@ -328,7 +328,7 @@ while(True):
         # If this is last submission page, then exit
         print("Next page not available.")
         print()
-    break
+        break
 # print(new_submissions)        
 for idx,link in enumerate(new_submissions):
     with open(code_links + all_file_list[idx],'a') as f:
